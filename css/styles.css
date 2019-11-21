@@ -1,0 +1,124 @@
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #0d96e4;
+  font-size: 1.5em;
+  /* text-transform: uppercase; */
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-nav {
+  background-color: #c1dae8;
+  font-size: 1.2em;
+}
+
+.navbar-nav .glyphicon {
+  color: #000000;
+}
+/* END HEADER */
+
+.menu-label {
+  border: 1px solid #000000;
+}
+
+.menu-label-text {
+  color: #000000;
+}
+
+#menu-title {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.menu-item-tile {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.menu-item {
+  font-family: 'Arial', serif;
+  border: 0;
+  line-height: 1.25;
+  height: 1000px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  width: 32%; /*32.6%;*/
+}
+
+.menu-item h3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#menu-chicken {
+  background-color: #fcf3c4;
+}
+
+#menu-beef {
+  background-color: #fc7f7f;
+}
+
+#menu-sushi {
+  background-color: #d2f9bc;
+}
+
+.back-to-top {
+  font-family: 'Lora', serif;
+  font-size: 1.2em;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 100%;
+  }
+
+  .menu-item {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 48%;
+  }
+
+  #menu-sushi {
+    width: 97%;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+
+  .menu-item {
+    margin: 0 5% 15px;
+    width: 90%;
+  }
+}
+
